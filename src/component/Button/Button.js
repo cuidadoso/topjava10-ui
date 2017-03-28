@@ -2,6 +2,12 @@ import React, { Component, PropTypes as pt } from 'react';
 import './Button.css';
 
 class Button extends Component {
+    static displayName = 'Button';
+    static propTypes = {
+        children: pt.string.isRequired,
+        onClick: pt.func,
+    };
+
     render() {
         return (
             <div>
@@ -12,11 +18,5 @@ class Button extends Component {
         );
     }
 }
-
-Button.displayName = 'Button';
-Button.propTypes = {
-  children: pt.string.isRequired,
-  onClick: pt.func,
-};
 
 export default Button;

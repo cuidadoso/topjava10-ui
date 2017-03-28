@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
+import User from './component/User';
+import Meal from './component/Meal';
+
 import './index.css';
 
 const routes = {
@@ -10,11 +13,11 @@ const routes = {
     childRoutes: [
         {
             path: 'users',
-            component: Users,
+            component: User,
         },
         {
             path: 'meals',
-            component: Meals,
+            component: Meal,
         },
     ]
 };
