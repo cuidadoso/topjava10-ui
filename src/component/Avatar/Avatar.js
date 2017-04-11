@@ -7,7 +7,7 @@ import './Avatar.css';
 
 class Avatar extends Component {
     static displayName = 'Avatar';
-    static propType = {
+    static propTypes = {
         children:   pt.string,
         src:        pt.string.isRequired,
         fallback:   pt.string.isRequired,
