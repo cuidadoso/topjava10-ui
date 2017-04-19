@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import App from './App';
-import User from './component/User';
-import Meal from './component/Meal';
+import User from './component/user';
+import Meal from './component/meal';
 
 import './index.css';
 
